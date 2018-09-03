@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a0efdf64fc34ea1765fec8da37c6254d",
+    "content-hash": "a966eea378dd795a8b4c64a18a260c72",
+    "packages": [
+        {
+            "name": "rumd3x/php-baseobject",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rumd3x/php-baseobject.git",
+                "reference": "1ccbcfaa8807bf49f67642237ff27b7e33dd06b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rumd3x/php-baseobject/zipball/1ccbcfaa8807bf49f67642237ff27b7e33dd06b9",
+                "reference": "1ccbcfaa8807bf49f67642237ff27b7e33dd06b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Rumd3x\\BaseObject\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edmur Cardoso",
+                    "email": "edmurcardoso@gmail.com"
+                }
+            ],
+            "description": "A very helpful class to extend from and use as a base for other classes.",
+            "keywords": [
+                "base",
+                "object",
+                "php-baseobject",
+                "rumd3x"
+            ],
+            "time": "2018-08-20 03:50:58"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

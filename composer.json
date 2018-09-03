@@ -1,0 +1,23 @@
+{
+    "name": "rumd3x/php-notify",
+    "description": "A simple notification and observer implementation in php.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edmur Cardoso",
+            "email": "edmurcardoso@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0",
+        "rumd3x/php-baseobject": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rumd3x\\Notifier\\": "src/"
+        }
+    }
+}
